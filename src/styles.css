@@ -30,7 +30,7 @@ html body {
 
 .user {
   background-color: white;
-  width: 40%;
+  width: 30%;
   position: relative;
   left: 30%;
   top: 45px;
@@ -47,16 +47,21 @@ html body {
 }
 
 .user .image img {
+  position: relative;
+  top:23px;
   border-radius: 50px;
-  width: 30px;
-  height: 30px;
+  width: 90px;
+  height: 90px;
   margin-left: 30px;
 }
 
 .user label {
+  position: relative;
+  left: 110px;
+  bottom: 50px;
   display: block;
   font-family: "Roboto";
-  font-size: 1.2em;
+  font-size: 1em;
   margin-left: 30px;
   font-weight: 500;
 }
