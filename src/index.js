@@ -1,4 +1,4 @@
 import "./styles.css";
-import { cargarUsers } from "./js/http-provider";
+import { init } from "./js/user-page-logic";
 
-cargarUsers().then(console.log).catch(console.warn);
+init();
